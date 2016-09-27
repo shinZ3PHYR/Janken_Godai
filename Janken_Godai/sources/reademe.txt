@@ -1,0 +1,21 @@
+Jaken Godai 0.5
+
+//-----------Note
+Pour poser une tourelle : drag and drop la tourelle du hud
+Pour custom une tourelle : cliquer sur une tourelle deja existante(il est seulement possible de changer l'element naturel de la tourelle pour le moment).
+Pour fermer le menu Custom d'un tourelle sans faire d'action dedans : Cliquer sur une autre tourelle(a debugger dans la prochaine version)
+
+//------------TODO
+amelioration des tourelles 1.0
+feature de modification de terrain
+feature des ennemis qui change de charactéristique suivant le terrain parcouru
+ecran de victoire
+skill tree
+achievement
+mode survie
+plusieurs worlds
+amélioration des menus
+event ontouch
+integration de cocoon.js
+reglages pour la gold
+//---------------

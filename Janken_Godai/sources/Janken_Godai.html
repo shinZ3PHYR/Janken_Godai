@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		*
+		{
+			background-image: url("assets/images/bgWeb.jpg");
+
+			background-position: center center;
+			background-repeat: no-repeat; 
+			background-attachment: fixed; 
+			background-size: cover; 
+			-moz-background-size: 100% 100%;     /* Gecko 1.9.2 (Firefox 3.6) */
+			-o-background-size: 100% 100%;        /* Opera 9.5 */
+			-webkit-background-size: 100% 100%;   /* Safari 3.0 */
+			background-size: 100% 100%;           /* Gecko 2.0 (Firefox 4.0) > CSS3 */ 
+		}
+		@font-face {
+  		font-family: "jankenFont";
+  		src: url(font/jankenFont.ttf) format("truetype");
+		}
+		@font-face {
+  		font-family: "japan";
+  		src: url(font/JAPAN.ttf) format("truetype");
+		}
+		#logo
+		{
+			position: absolute;
+			display: inline-block;
+			margin-left: 86%;
+		}
+		#gameContainer
+		{  
+			margin-left: 20%;	
+			
+			border :10px inset #8199AE;
+			border-radius: 10px;
+			
+  			vertical-align:middle;
+  			display:inline-block;  		
+		}
+
+
+	</style>
+	<title>TP map Phaser  + pathfinding</title>
+	<script type="text/javascript" src="libs/phaser.min.js"></script>
+	<script type="text/javascript" src="libs/easystar-0.1.5.js"></script>
+	<script type="text/javascript" src="libs/PathFinderPlugin.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="js/enemy.js"></script>
+	<script type="text/javascript" src="js/tower.js"></script>
+	<script type="text/javascript" src="js/Objects.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/bullet.js"></script>
+	<script type="text/javascript" src="js/manageTurret.js"></script>
+	<script type="text/javascript" src="js/hud.js"></script>
+</head>
+<body>
+	<a href="http://isartdigital.com" target=_blank>
+		<img id="logo" src="assets/images/isart.png"/>
+	</a>
+	<div id="gameContainer"></div>
+	
+</body>
+</html>
